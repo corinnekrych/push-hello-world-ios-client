@@ -1,0 +1,30 @@
+PODS:
+  - AeroGear-Push (1.0.0)
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - FH (2.2.8):
+    - AeroGear-Push (= 1.0.0)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - Reachability (= 3.2)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - FH (from `git@github.com:corinnekrych/fh-ios-sdk.git`, branch `push.demo`)
+
+EXTERNAL SOURCES:
+  FH:
+    :branch: push.demo
+    :git: git@github.com:corinnekrych/fh-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  FH:
+    :commit: 35f7e64a22559cfe6663e8d595a446330de678a3
+    :git: git@github.com:corinnekrych/fh-ios-sdk.git
+
+SPEC CHECKSUMS:
+  AeroGear-Push: 2476533f5c2fc1b29e61555ef7c61ac4238a4620
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  FH: ffa2968fbafc47d69ed266bffdee890f03c00796
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.37.1
